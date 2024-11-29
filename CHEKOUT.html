@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chekout Barang</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #ffffff; padding: 20px;">
+
+    <h1 style="text-align: center; color: #000000;">SILAKAN DIISI TERLEBIH DAHULU!</h1>
+
+    <div style="max-width: 600px; margin: 0 auto; background-color: #000000; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <form action="#" method="POST">
+           
+            <div style="margin-bottom: 15px;">
+                <label for="nama" style="display: block; font-size: 16px; color: #ffffff;">Nama:</label>
+                <input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap" 
+                       style="width: 100%; padding: 9px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="alamat" style="display: block; font-size: 16px; color: #ffffff;">Alamat Lengkap:</label>
+                <textarea id="alamat" name="alamat" rows="4" required placeholder="Masukkan alamat lengkap" 
+                          style="width: 100%; padding: 9px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="telepon" style="display: block; font-size: 16px; color: #ffffff;">Nomor WhatsApp:</label>
+                <input type="tel" id="telepon" name="telepon" required placeholder="Masukkan nomor yang bisa dihubungi" 
+                       style="width: 100%; padding: 9px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="barang" style="display: block; font-size: 16px; color: #ffffff;">Barang yang Dipesan:</label>
+                <input type="text" id="barang" name="barang" required placeholder="Masukkan nama barang" 
+                       style="width: 100%; padding: 9px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="jumlah" style="display: block; font-size: 16px; color: #ffffff;">Jumlah Barang:</label>
+                <input type="number" id="jumlah" name="jumlah" required placeholder="Masukkan jumlah barang" 
+                       style="width: 100%; padding: 9px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="pengiriman" style="display: block; font-size: 16px; color: #ffffff;">Metode Pengiriman:</label>
+                <select id="pengiriman" name="pengiriman" required style="width: 100%; padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+                    <option value="standard">J&T</option>
+                    <option value="express">JNE</option>
+                    <option value="express">TIKI</option>
+                    <option value="express">Lion Parcel</option>
+                    <option value="express">Anteraja</option>
+                    <option value="express">Ninja Express</option>
+                    <option value="express">SiCepat</option>
+                    <option value="express">Wahana</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="pembayaran" style="display: block; font-size: 16px; color: #ffffff;">Metode Pembayaran:</label>
+                <select id="pengiriman" name="pengiriman" required style="width: 100%; padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
+                    <option value="standard">Transfer BCA</option>
+                    <option value="express">Transfer BTN</option>
+                    <option value="express">DANA</option>
+                    <option value="express">GO-PAY</option>
+                    <option value="express">COD</option>
+                </select>
+            </div>
+
+             
+            <div style="text-align: center;">
+                <button type="submit" style="padding: 10px 20px; background-color: #00ff08; color: rgb(255, 255, 255); border: none; border-radius: 4px; font-size: 16px; cursor: pointer;">
+                 <a href="SUBMIT.html">Kirim Pemesanan</a>
+                </button>
+            </div>
+            
+    </div>
+</body>
+</html>
